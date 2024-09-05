@@ -1,8 +1,26 @@
 body{
-    background-color: black;
+    background-color: rgb(29, 28, 28);
     color: white; /* Define a cor do texto como branco para contraste */
-     margin: 10px; /* Remove a margem padrão do corpo */
+    margin: 0px; /* Remove a margem padrão do corpo */
     padding: 0; /* Remove o preenchimento padrão do corpo */   
+}
+.background{
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Define a altura da página para 100% da altura da janela de visualização */
+    background-image: url('imagem_fundo.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra toda a área da página */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+.background-pagina_inicial{
+    margin: 0;
+    padding: 0;
+    height: 80vh; /* Define a altura da página para 100% da altura da janela de visualização */
+    background-image: url('imagem_fundo.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra toda a área da página */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
 }
 .row{
     margin: 0;
@@ -11,6 +29,24 @@ body{
 .abiflix-login{
     color: red;
     font-size: 210%;   
+}
+.cards-container {
+    display: flex; /* Alinha os cards horizontalmente */
+    overflow-x: auto; /* Permite rolagem horizontal se necessário */
+    gap: 10px; /* Espaçamento entre os cards */
+}
+
+.card {
+    width: 200px; /* Largura do card */
+    height: 150px; /* Altura do card */
+    background-color: #425743; /* Cor de fundo do card */
+    color: white; /* Cor do texto */
+    display: flex; /* Alinha o texto no centro do card */
+    align-items: center; /* Alinha verticalmente o texto */
+    justify-content: center; /* Alinha horizontalmente o texto */
+    font-size: 18px; /* Tamanho do texto */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra dos cards */
 }
 
 .conteiner-menu{
@@ -40,8 +76,9 @@ body{
     justify-content: center;
     align-items: center;
     height: 70vh;
-    background-color: rgb(235, 187, 216);
-    margin: 0px 200px 0px 200px;
+    background-color: rgb(24, 23, 23);
+    margin: 0px 520px 0px 520px;
+    opacity: 0.8; /* Ajusta a opacidade da div como um todo */
 }            
 .input-group {
     margin-bottom: 15px;
