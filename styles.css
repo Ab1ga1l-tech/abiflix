@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: white; /* Define a cor do texto como branco para contraste */
+     margin: 10px; /* Remove a margem padrão do corpo */
+    padding: 0; /* Remove o preenchimento padrão do corpo */   
+}
+.row{
+    margin: 0;
+}
+
+.abiflix-login{
+    color: red;
+    font-size: 210%;   
+}
+
+.conteiner-menu{
+    display: flex;
+    justify-content: space-between; /* Distribui espaço entre as divs */
+}
+.left-div, .right-div {
+    width: 50%; /* Ajuste a largura conforme necessário */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.right-div {
+    text-align: right;
+}
+
+.custom-link {
+    color: white; /* Altera a cor do texto para branco */
+    margin: 3px;
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.conteiner{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: rgb(235, 187, 216);
+    margin: 0px 200px 0px 200px;
+}            
+.input-group {
+    margin-bottom: 15px;
+}
+.red-button{
+    background-color: red;
+    color: white;
+}
+.gray-button{
+    background-color: gray;
+    color: white;
+}
